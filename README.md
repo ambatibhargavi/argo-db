@@ -21,8 +21,11 @@ Docker
 Kubernetes (Minikube/K8s cluster)
 ArgoCD
 Git
+### BluePrint
+![CRUD](https://github.com/user-attachments/assets/e77936fe-d651-4cae-9faf-bb9bcc0fce53)
 
-#### Installation and Usage
+
+### Installation and Usage
 
 1. Clone the Repository
              git clone https://github.com/ambatibhargavi/argo-db.git
