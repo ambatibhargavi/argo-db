@@ -1,10 +1,10 @@
-##### Flask DynamoDB CRUD App
+### Flask DynamoDB CRUD App
 ![ScreenRecording2025-02-19at15 54 03-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/66750777-83d3-4c23-9bca-1492329e0276)
 
 
 This project is a Python Flask application that interacts with AWS DynamoDB, enabling CRUD operations via CLI commands and a web interface. The application is containerized using Docker, deployed on Kubernetes, and managed using ArgoCD.
 
-##### Features
+### Features
 
 Perform CRUD operations on DynamoDB using CLI commands.
 View database records through a simple HTML page on localhost:5000.
@@ -12,7 +12,7 @@ Dockerized application with an image hosted on DockerHub.
 Kubernetes deployment using deployment.yaml and service.yaml.
 Continuous deployment with ArgoCD.
 
-##### Prerequisites
+### Prerequisites
 
 Python 3.x
 Flask
@@ -60,7 +60,7 @@ Apply ArgoCD Configuration
 <img width="726" alt="Screenshot 2025-02-18 at 16 05 14" src="https://github.com/user-attachments/assets/78531f9b-0b92-4d6d-9f86-1fe22649038c" />
 <img width="901" alt="Screenshot 2025-02-18 at 16 15 30" src="https://github.com/user-attachments/assets/10e5ee9e-bc52-453c-9d20-2e0f510a78e6" />
 
-#### Repository Structure
+### Repository Structure
 
 ├── app.py              # Flask application logic
 ├── templates/          # HTML files for UI
@@ -71,7 +71,7 @@ Apply ArgoCD Configuration
 ├── argo.yaml           # ArgoCD deployment configuration
 ├── README.md           # Project documentation
 
-#### Crud operations using cli commands
+### Crud operations using cli commands
 
 <img width="611" alt="Screenshot 2025-02-17 at 18 51 49" src="https://github.com/user-attachments/assets/2d12d9fe-9784-43e0-8ce4-ff143dd44e8b" />
 <img width="1110" alt="Screenshot 2025-02-17 at 18 54 08" src="https://github.com/user-attachments/assets/fc6c9d15-ff1b-49e3-8a42-778e285537f0"/>
